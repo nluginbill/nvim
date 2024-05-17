@@ -19,5 +19,12 @@ require("lazy").setup({
 				-- my config here, empty for default
 			},
 		},
+		{
+			"easymotion/vim-easymotion",
+			event = "VeryLazy",
+			config = function()
+				-- easymotion config
+			end,
+		},
 	},
 })
